@@ -17,6 +17,6 @@ import subprocess, sys
 if sys.platform != 'win32':
     subprocess.check_call(["brew", "update"])
     subprocess.check_call(["brew", "install", "ninja"])
-    subprocess.check_call(["pip3", "install", "meson==0.50.0", "conan==1.19.0"])
+    subprocess.check_call(["pip3", "install", "meson==0.50.0", "conan==1.18.0"])
 else:
-    subprocess.check_call(["pip", "install", "meson==0.50.0", "conan==1.19.0"])
+    subprocess.check_call(["pip", "install", "meson==0.50.0", "conan==1.18.0"])
