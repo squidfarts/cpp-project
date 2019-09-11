@@ -21,8 +21,6 @@ project('cpp-exe', 'cpp',
     default_options : 
     [
         'buildtype=release',
-        'b_coverage=true',
-        'b_lundef=true',
         'werror=true',
         'optimization=3',
         'warning_level=3',
