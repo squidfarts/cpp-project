@@ -55,13 +55,11 @@ if cc.get_argument_syntax() == 'gcc'
             [
             '-Wunreachable-code', 
             '-Wmissing-declarations',
-            '-Wmissing-prototypes',
             '-Wundef',
             '-Wwrite-strings',
             '-Wformat',
             '-Wformat-nonliteral',
             '-Wformat-security',
-            '-Wold-style-definition',
             '-Winit-self',
             '-Wmissing-include-dirs',
             '-Waddress',
@@ -70,7 +68,6 @@ if cc.get_argument_syntax() == 'gcc'
             '-Wno-parentheses',
             '-Wno-unused-parameter',
             '-Wno-type-limits',
-            '-Wdeclaration-after-statement',
             '-Wvla',
             '-Wpointer-arith'
             ]
