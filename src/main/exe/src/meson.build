@@ -17,7 +17,7 @@
 exe_src = [ 'project.cc' ]
 
 
-exe_lib = static_library('exe-lib', exe_src,
+exe_lib = library('exe-lib', exe_src,
     #dependencies: [ ???_dep ],  
     include_directories: exe_dir,
     install: true)
